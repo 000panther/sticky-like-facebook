@@ -24,93 +24,50 @@
         $document = $(document),
         sticked = [],
         windowHeight = $window.height(),
-        scroller = function () {
-            var scrollTop = $window.scrollTop(),
-                scrollPositionBottom = windowHeight + scrollTop;
+        stickyElementPlacer = function() {
 
-            for (var i = 0; i < sticked.length; i++) {
-                var s = sticked[i];
+            // position wrapper
+            s.stickyWrapper.css('height', ($document.height() - s.topSpacing - s.bottomSpacing - 100) + 'px');
+            s.stickyElement.css('width', s.originalWidth);
 
-                // position wrapper
-                s.stickyWrapper.css('height', ($document.height() - s.topSpacing - s.bottomSpacing - 100) + 'px');
-                s.stickyElement.css('width', s.originalWidth);
+            var wrapperTop = s.stickyWrapper.offset().top,
+                wrapperHeight = s.stickyWrapper.height(),
+                scrolling = (s.lastScrollTop < scrollTop) ? 'down' : 'up';
 
-                var wrapperTop = s.stickyWrapper.offset().top,
-                    wrapperHeight = s.stickyWrapper.height(),
-                    scrolling = (s.lastScrollTop < scrollTop) ? 'down' : 'up';
+            var attributes = {'position':'relative'};
+            var headerHeight = 90;
+            var bottomLineOfHeader = scrollTop + headerHeight;
 
-                var attributes = {'position':'relative'};
-                var headerHeight = 90;
-                var bottomLineOfHeader = scrollTop + headerHeight;
+            s.lastScroll = null;
 
-                s.lastScroll = null;
+            if (scrolling == 'up') {
 
-                if (scrolling == 'up') {
+                if(s.stickyElement.css('position') === 'fixed' && s.stickyElement.offset().top > s.topSpacing && s.lastScroll == "up") {
+                    attributes = {
+                        'position':'fixed',
+                        'top':"110px", bottom : 'auto'
+                    }
+                } else {
 
-                    if(s.stickyElement.css('position') === 'fixed' && s.stickyElement.offset().top > s.topSpacing && s.lastScroll == "up") {
-                        attributes = {
+                    // check if we are over upper border
+                    if (bottomLineOfHeader < s.stickyElement.offset().top) {
+                        if (bottomLineOfHeader > s.topSpacing) {
+                            var newTop = (bottomLineOfHeader - s.topSpacing );
+
+                            // check if we are going over lower border
+                            if (newTop + s.stickyElement.height() < s.stickyWrapper.height()) {
+                                attributes = {
                                     'position':'fixed',
                                     'top':"110px", bottom : 'auto'
                                 }
-                    } else {
-
-                        // check if we are over upper border
-                        if (bottomLineOfHeader < s.stickyElement.offset().top) {
-                            if (bottomLineOfHeader > s.topSpacing) {
-                                var newTop = (bottomLineOfHeader - s.topSpacing );
-
-                                // check if we are going over lower border
-                                if (newTop + s.stickyElement.height() < s.stickyWrapper.height()) {
-                                    attributes = {
-                                        'position':'fixed',
-                                        'top':"110px", bottom : 'auto'
-                                    }
-                                }
-
-                            } else {
-                                attributes = $.extend(attributes, {
-                                    'top':0 + 'px',
-                                    'bottom':'auto'
-                                });
                             }
+
                         } else {
-                            // keep current position as relative
                             attributes = $.extend(attributes, {
-                                'top': s.stickyElement.offset().top - s.stickyWrapper.offset().top,
+                                'top':0 + 'px',
                                 'bottom':'auto'
                             });
                         }
-                    }
-
-                } else if (scrolling == 'down') {
-
-
-
-                    // check if we are going over lower border
-                    // leave unchanged until it goes over bottom of screen.
-                    var lowerElementBorder = s.stickyElement.offset().top + s.stickyElement.height();
-                    var overLowerBorder = lowerElementBorder < wrapperHeight + wrapperTop;
-
-                    if (lowerElementBorder < scrollPositionBottom && overLowerBorder) {
-
-                         //console.log('distanceToBottom',  $document.height() - scrollPositionBottom);
-                         if($document.height() - scrollPositionBottom > s.bottomSpacing) {
-                             attributes = {
-                                 'position' : 'fixed',
-                                 'top' : 'auto',
-                                 'bottom' : '10px'
-                             }
-                         } else {
-                             // calculate new top from distance from browser window border
-                             var absolutePosition = scrollPositionBottom - 10;
-
-                             var relativePosition = absolutePosition - s.stickyElement.height() - s.stickyWrapper.offset().top;
-
-                             attributes = $.extend(attributes, {
-                                 'top':relativePosition,
-                                 'bottom':'auto'
-                             });
-                         }
                     } else {
                         // keep current position as relative
                         attributes = $.extend(attributes, {
@@ -118,14 +75,59 @@
                             'bottom':'auto'
                         });
                     }
-
                 }
 
-                s.lastScroll = scrolling;
-                s.stickyElement.css(attributes);
+            } else if (scrolling == 'down') {
 
-                s.lastScrollTop = scrollTop;
-            } // end for
+
+
+                // check if we are going over lower border
+                // leave unchanged until it goes over bottom of screen.
+                var lowerElementBorder = s.stickyElement.offset().top + s.stickyElement.height();
+                var overLowerBorder = lowerElementBorder < wrapperHeight + wrapperTop;
+
+                if (lowerElementBorder < scrollPositionBottom && overLowerBorder) {
+
+                    //console.log('distanceToBottom',  $document.height() - scrollPositionBottom);
+                    if($document.height() - scrollPositionBottom > s.bottomSpacing) {
+                        attributes = {
+                            'position' : 'fixed',
+                            'top' : 'auto',
+                            'bottom' : '10px'
+                        }
+                    } else {
+                        // calculate new top from distance from browser window border
+                        var absolutePosition = scrollPositionBottom - 10;
+
+                        var relativePosition = absolutePosition - s.stickyElement.height() - s.stickyWrapper.offset().top;
+
+                        attributes = $.extend(attributes, {
+                            'top':relativePosition,
+                            'bottom':'auto'
+                        });
+                    }
+                } else {
+                    // keep current position as relative
+                    attributes = $.extend(attributes, {
+                        'top': s.stickyElement.offset().top - s.stickyWrapper.offset().top,
+                        'bottom':'auto'
+                    });
+                }
+
+            }
+
+            s.lastScroll = scrolling;
+            s.stickyElement.css(attributes);
+
+            s.lastScrollTop = scrollTop;
+        },
+        scroller = function () {
+            var scrollTop = $window.scrollTop();
+
+            for (var i = 0; i < sticked.length; i++) {
+                var s = sticked[i];
+                this.stickyElementPlacer(s);
+            }
         },
         resizer = function () {
             windowHeight = $window.height();
