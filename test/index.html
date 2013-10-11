@@ -3,17 +3,38 @@
 <head>
     <meta charset="utf-8">
     <title>QUnit basic example</title>
-    <link rel="stylesheet" href="/test/resources/qunit.css">
+    <link rel="stylesheet" href="resources/qunit.css">
 </head>
 <body>
 <div id="qunit"></div>
 <div id="qunit-fixture"></div>
-<script src="/test/resources/qunit.js"></script>
+
+<div id="element-to-stick">
+    Hello! I am a sticky element!
+</div>
+
+<script src="resources/jquery.js"></script>
+<script src="resources/qunit.js"></script>
+<script src="../jquery.sticky-like-facebook.js"></script>
 <script>
     test( "a basic test example", function() {
         var value = "hello";
         equal( value, "hello", "We expect value to be hello" );
     });
+
+    test( "sticky element test", function() {
+        $element = $("#element-to-stick").stickyLikeFacebook();
+
+        console.log($element.css("position"));
+        ok($element.css("position"), "The element does not have a position! How could that happen!");
+
+        // check if the element is wrapped
+        var $parentId = $element.parent().attr('id');
+        equal($element.attr('id') + "-sticky-wrapper", $parentId , "The elements parent did not have the expected id");
+
+
+    })
+
 </script>
 </body>
 </html>

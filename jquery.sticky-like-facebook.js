@@ -25,6 +25,7 @@
         sticked = [],
         windowHeight = $window.height(),
         stickyElementPlacer = function() {
+            var scrollTop = $window.scrollTop();
 
             // position wrapper
             s.stickyWrapper.css('height', ($document.height() - s.topSpacing - s.bottomSpacing - 100) + 'px');
@@ -122,7 +123,7 @@
             s.lastScrollTop = scrollTop;
         },
         scroller = function () {
-            var scrollTop = $window.scrollTop();
+
 
             for (var i = 0; i < sticked.length; i++) {
                 var s = sticked[i];
@@ -159,8 +160,7 @@
                     }
 
                     var stickyWrapper = stickyElement.parent();
-                    //console.log('stickyElement.width', stickyElement.width());
-                    //stickyWrapper.css('height', stickyElement.outerHeight());
+
                     stickyWrapper.css({
                         position:"absolute",
                         top:o.topSpacing,

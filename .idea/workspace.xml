@@ -2,14 +2,86 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/index.html" afterPath="$PROJECT_DIR$/test/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery.sticky-like-facebook.js" afterPath="$PROJECT_DIR$/jquery.sticky-like-facebook.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sticky-like-facebook.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381330817030" ignored="false" />
-    <file path="/index.html" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381331278450" ignored="false" />
+    <file path="/Dummy.txt" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381397108930" ignored="false" />
+    <file path="/index.html" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381334414954" ignored="false" />
     <file path="/jquery.sticky-like-facebook.js" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381331607039" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/htdocs/js/libs/jquery.sticky-like-facebook.js" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381397114023" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/vendor/iwatech/talenthouse-thlib/TH/Action/Async.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381397114023" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/Challenge/controllers/CiController.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381398704097" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/Core/Util/TranslatedUrlCalculator.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381397549994" ignored="false" />
+    <file path="/a.dummy" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381412492527" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/User/controllers/AuthController.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381398153140" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/User/controllers/FormsController.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381412474457" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/Core/routes/10.supporter.xml" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381412474457" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/User/Model/Object.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381412474457" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/Message/Mail/Component/NotificationSettings.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381400398708" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/Html/Form.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381398704097" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/Message/Mail/AggregatedSupporters.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381412474457" ignored="false" />
+    <file path="/AggregatedSupporters.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381399088749" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/Message/Mail/NewMessage.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381399192215" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/Message/Mail/PasswordReset.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381399210176" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/Message/Mail/Reactivation.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381399224616" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/Message/Mail/SignupConfirmation.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381399233367" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/Message/Mail/Submission.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381399245420" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/Message/Mail/SupportConfirmation.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381399255558" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/Message/Mail/Component/Footer.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381399423039" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/Demo/controllers/MailController.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381412474457" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/config/base.ini" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381412474457" ignored="false" />
+    <file path="/base.ini" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381400284555" ignored="false" />
+    <file path="/MailController.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381400803508" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/Demo/Model/Factory.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381412474457" ignored="false" />
+    <file path="/Factory.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381400858031" ignored="false" />
+    <file path="/AggregatedProjects.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381405665004" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/Message/Mail/AggregatedProjects.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381412474457" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/vendor/iwatech/talenthouse-thlib/TH/Service/Data/Widget.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381406049279" ignored="false" />
+    <file path="/Widget.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381406049279" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/Message/Mail/Layout/Automatic.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381412474457" ignored="false" />
+    <file path="/Automatic.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381406396180" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/Core/routes/01.core.xml" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381412474457" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/User/controllers/MyaccountController.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381412474457" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/User/Form/MyProfileForms.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381412474457" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/User/views/confirmemail.phtml" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381407277322" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/User/views/confirmOverlay.phtml" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381407285766" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/Cron/Helper/MailServiceValidate.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381412474457" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/Facebook/Controller/ProcessController.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381412474457" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/Message/EmailGenerator.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381412474457" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/test/unit/api/TH/Message/EmailGeneratorTest.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381412474457" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/htdocs/css/main.css" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381412474457" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/htdocs/css/_th_main.less" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381412474457" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/User/views/layerprofilepicture.phtml" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381412474457" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/User/Form/SignupFormStep2.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381412474457" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/htdocs/js/libs/th_misc.js" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381412474457" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/Core/Model/Abstract.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381412474457" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/User/views/profile/index.phtml" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381412474457" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/htdocs/js/libs/th.ui.form.js" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381412474457" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/User/Form/Widget/Signup/scripts/DetailedInformation.phtml" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381412474457" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/User/controllers/ProfileController.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381412474457" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/composer.lock" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381412474457" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/User/Factory.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381412474457" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/htdocs/index.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381412474457" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/config/db.ini" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381412474457" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/composer.json" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381412474457" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/Challenge/Model/Object.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381412474457" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/_autoload.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381412474457" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/htdocs/css/th_screen.less" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381412474457" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/Core/routes/20.myprofile.xml" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381412474457" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/htdocs/js/libs/th.overlay.js" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381412474457" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/User/Core/Action/AsyncUserUpdate.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381412474457" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381412474457" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/User/views/signupformstep2js.phtml" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381412474457" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/Challenge/Core/Action/NewSubmission.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381412505841" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/Challenge/Model/Rest.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381412562390" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/Core/controllers/ExportController.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381413770094" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/Cron/controllers/IndexController.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381412637751" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/bin/cronjobs/startscripts/ciAutomaticStateChange.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381413034097" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/api/TH/Challenge/Model/Vote.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381413859325" ignored="false" />
+    <file path="$PROJECT_DIR$/../talenthouse/vendor/iwatech/talenthouse-thlib/TH/Database/Adapter/SimpleDb.php" changelist="75a04a37-6886-4933-9f4a-df1c4bc7ad5a" time="1381413762655" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,10 +104,8 @@
       <file leaf-file-name="jquery.sticky-like-facebook.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jquery.sticky-like-facebook.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="128" column="26" selection-start="5148" selection-end="5148" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="149" column="62" selection-start="5723" selection-end="5738" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -43,7 +113,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="33" selection-start="317" selection-end="317" vertical-scroll-proportion="0.3409091">
+            <state line="33" column="0" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.6096059">
               <folding />
             </state>
           </provider>
@@ -73,10 +143,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="99" />
-    <option name="y" value="52" />
-    <option name="width" value="1810" />
-    <option name="height" value="1011" />
+    <option name="x" value="100" />
+    <option name="y" value="138" />
+    <option name="width" value="1802" />
+    <option name="height" value="1010" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -186,7 +256,7 @@
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
       <JSDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
       <method />
@@ -208,28 +278,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="99" y="52" width="1810" height="1011" extended-state="0" />
+    <frame x="100" y="138" width="1802" height="1010" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33024335" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24971624" sideWeight="0.66975665" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25256556" sideWeight="0.66975665" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33024335" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -296,16 +366,28 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/jquery.sticky-like-facebook.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="26" selection-start="5148" selection-end="5148" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="33" selection-start="317" selection-end="317" vertical-scroll-proportion="0.3409091">
+        <state line="33" column="0" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery.sticky-like-facebook.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="149" column="62" selection-start="5723" selection-end="5738" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="1072" selection-end="1072" vertical-scroll-proportion="0.6096059">
           <folding />
         </state>
       </provider>
